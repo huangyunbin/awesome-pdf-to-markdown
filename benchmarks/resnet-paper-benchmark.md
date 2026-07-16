@@ -22,7 +22,7 @@ This benchmark evaluates how different tools handle a **real-world arXiv paper**
 
 ## Results
 
-### paper2md
+### [paper2md](https://paper2md.com)
 
 **Score: 5/5** ✅✅✅✅✅
 

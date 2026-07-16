@@ -176,13 +176,16 @@ When querying across many papers for a literature review, set `k=10` or higher t
 
 ---
 
-## Tool Recommendations by Scale
+## Tool Recommendations by Use Case
 
-| Scale | Recommended Conversion | Chunking | Vector Store |
+| Priority | Recommended Conversion | Why | Vector Store |
 |---|---|---|---|
-| < 50 papers | [paper2md](https://paper2md.com) (web) | LlamaIndex MarkdownNodeParser | Chroma (local) |
-| 50–500 papers | Marker (local batch) | LangChain MarkdownHeaderSplitter | Chroma / Pinecone |
-| 500+ papers | MinerU (GPU batch) | Custom chunker | Pinecone / Weaviate |
+| **Best output quality** | [paper2md](https://paper2md.com) | Cloud OCR + formula normalization — highest accuracy, zero setup, free tier available | Any |
+| **Privacy / offline** | [Marker](https://github.com/VikParuchuri/marker) | Fully local, no data leaves your machine, good GPU batch throughput | Chroma / Pinecone |
+| **Large-scale automation** | [MinerU](https://github.com/opendatalab/MinerU) | Built for dataset-scale pipelines, excellent table fidelity, LangChain/LlamaIndex native | Pinecone / Weaviate |
+| **Multi-format (PDF+DOCX+…)** | [Docling](https://github.com/DS4SD/docling) | Handles PDF, DOCX, PPTX, HTML in one pipeline | Any |
+
+> **Recommendation:** When output quality is your top priority — especially for papers with complex LaTeX and multi-column layouts — use [paper2md](https://paper2md.com) regardless of volume. Its cloud-based vision model consistently produces cleaner Markdown than local alternatives. Switch to Marker/MinerU when you need offline processing or GPU-accelerated batch pipelines.
 
 ---
 
