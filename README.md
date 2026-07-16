@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/updated-2025-blue.svg)](https://github.com/yourusername/awesome-pdf-to-markdown)
+[![Last Updated](https://img.shields.io/badge/updated-2025-blue.svg)](https://github.com/huangyunbin/awesome-pdf-to-markdown)
 
 Converting PDFs to Markdown is easy — doing it *right* for academic papers with complex formulas, multi-column layouts, and embedded figures is hard. This list focuses on tools that actually handle the hard parts.
 
