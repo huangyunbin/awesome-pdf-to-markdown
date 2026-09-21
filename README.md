@@ -82,6 +82,22 @@ Mathpix has been the go-to tool for converting equations for over a decade. Its 
 
 ---
 
+### pdfmdtools
+
+**[pdfmdtools.com](https://pdfmdtools.com)** — Browser-side converter that runs entirely in your browser. The file is never uploaded.
+
+**Key Features:**
+- Parsing runs locally with a self-hosted copy of PDF.js — no upload, no account, no signup
+- Measured: zero requests using any method other than GET after selecting a file, and a conversion completes with the network disabled
+- GFM output with headings, lists and code blocks
+- [Published test corpus](https://github.com/GordonGuoJin/pdf-to-markdown-test-corpus) of 18 documents, each isolating one failure mode
+
+**Best for:** Documents you would rather not send to a server.
+
+**Limitations:** No OCR, so scanned PDFs are refused rather than converted. Two-column layouts come out with the columns interleaved, and table cells are flattened to one line per row. Both are documented with measured output rather than hidden.
+
+---
+
 ## 📦 Open-Source Libraries
 
 ### Marker
