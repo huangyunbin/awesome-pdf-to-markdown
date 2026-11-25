@@ -82,6 +82,27 @@ Mathpix has been the go-to tool for converting equations for over a decade. Its 
 
 ---
 
+### JustMarkdown
+
+**[justmarkdown.com](https://justmarkdown.com/pdf-to-markdown)** — Browser-based PDF to Markdown with a free text-layer path, on-device scanned-page OCR, and an optional hosted OCR upgrade.
+
+JustMarkdown converts PDF, Office, EPUB, HTML and URLs to Markdown. Text-layer PDFs and scanned pages run in the browser by default; complex scans can use a hosted structured OCR path that is billed per page and not charged on failure.
+
+**Key Features:**
+- Free browser text-layer extraction and on-device scanned-page OCR (no upload for the local path)
+- Optional hosted structured OCR for complex scans, tables and formulas
+- Also converts Word, PowerPoint, Excel, EPUB, HTML and URLs
+- MCP server and CLI for Claude Code, Codex, Cursor and other MCP clients
+- Public 40-document benchmark with CSV, methodology and failure cases
+
+**Pricing:** Free browser tools; hosted Structured OCR 1 credit/page with failures not charged; Pro subscription for higher quotas.
+
+**Best for:** People who need Markdown for editing, search or RAG and want a zero-install browser path before paying for OCR.
+
+**Limitations:** Multi-column reading order, complex tables and formulas still need the hosted OCR path. Server-side paths upload the file. The free text-layer path is not a full layout model.
+
+---
+
 ## 📦 Open-Source Libraries
 
 ### Marker
